@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/launchCamera"
+        android:title="カメラ起動"
+        android:icon="@drawable/icon_6m_32"
+        android:orderInCategory="460"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/launchCamera2"
+        android:title="カメラ起動"
+        android:orderInCategory="465"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/syncroBMP"
+        android:title="一覧の再表示"
+        android:orderInCategory="470"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/Del24"
+        android:title="画像をまとめて削除"
+        android:orderInCategory="480"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/setGallerySetting"
+        android:title="設定"
+        android:orderInCategory="485"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/deletePhotoForShare"
+        android:title="共有用ファイルの削除"
+        android:orderInCategory="487"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/appFinish"
+        android:title="終了"
+        android:orderInCategory="490"
+        android:showAsAction="never" />
+
+</menu>

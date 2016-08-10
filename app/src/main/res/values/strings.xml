@@ -1,0 +1,13 @@
+<resources>
+
+    <string-array name="camera_sizes">
+        <item>192,192</item>
+        <item>320,320</item>
+        <item>480,480</item>
+        <item>640,640</item>
+        <item>800,800</item>
+        <item>1080,1080</item>
+    </string-array>
+    <string name="title_activity_preference">各種設定</string>
+
+</resources>

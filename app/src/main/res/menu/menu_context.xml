@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_detail" android:title="画像情報" ></item>
+    <item android:id="@+id/menu_delete" android:title="削除" ></item>
+    <item android:id="@+id/menu_share" android:title="共有" ></item>
+
+</menu>

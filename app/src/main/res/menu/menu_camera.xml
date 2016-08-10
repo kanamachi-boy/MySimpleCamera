@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/setPhotoSize"
+        android:title="カメラの設定"
+        android:orderInCategory="10"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/setOtherSetting"
+        android:title="その他の設定"
+        android:orderInCategory="15"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/locationUpdate"
+        android:title="位置情報の手動更新"
+        android:orderInCategory="20"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/goToGallery"
+        android:title="写真ホルダーへ"
+        android:orderInCategory="100"
+
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/goToGallery2"
+        android:title="写真ホルダーへ"
+        android:icon="@drawable/icon_4b_32"
+        android:orderInCategory="105"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/appFinish"
+        android:title="終了"
+        android:orderInCategory="500"
+        android:showAsAction="never" />
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+
+    <item
+        android:id="@+id/previewEmbedText"
+        android:title="コメントの埋め込み"
+        android:orderInCategory="103"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/previewEmbedText_plus"
+        android:title="埋め込み文字の拡大"
+        android:icon="@drawable/enlarge"
+        android:orderInCategory="106"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/previewEmbedText_minus"
+        android:title="埋め込み文字の縮小"
+        android:icon="@drawable/shirink"
+        android:orderInCategory="107"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/previewEmbedText_wide"
+        android:title="文字間隔拡大"
+        android:icon="@drawable/wide"
+        android:orderInCategory="120"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/previewEmbedText_narrow"
+        android:title="文字間隔縮小"
+        android:icon="@drawable/narrow"
+        android:orderInCategory="125"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/previewColorSetting"
+        android:title="埋め込み文字色変更"
+        android:orderInCategory="130"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/previewShare"
+        android:title="共有"
+        android:orderInCategory="140"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/previewXferRect"
+        android:title="角丸形PNGにして共有"
+        android:orderInCategory="145"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/previewEnd"
+        android:title="終了"
+        android:orderInCategory="150"
+        android:showAsAction="never" />
+
+</menu>

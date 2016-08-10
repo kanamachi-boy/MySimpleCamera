@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MediaFileTest01</string>
+    <string name="title_activity_preview_">Preview_Activity</string>
+
+    <string name="title_activity_camera_activiity">CameraActiviity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="camera_sizes">
+        <item>0,0</item>
+        <item>1920,1080</item>
+        <item>1080,1080</item>
+        <item>960,720</item>
+        <item>960,540</item>
+        <item>800,600</item>
+        <item>640,640</item>
+        <item>640,480</item>
+        <item>320,240</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
